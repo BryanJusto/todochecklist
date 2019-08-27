@@ -1,19 +1,9 @@
 import React from 'react';
-
+import App from './app';
 // When ever the document has been loaded it executes everything inside the call back
 const Root = () => {
   return (
-    <table className="tables">
-      <tr>
-        <th> Name</th>
-      </tr>
-      <tr>
-        <td> John</td>
-      </tr>
-      <tr>
-        <td> Elsa</td>
-      </tr>
-      </table>
+    <App/>
   )
 }
 export default Root;
